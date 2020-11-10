@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: turquoise;
+}
+.white-keys kbd {
+  display: inline-block;
+  height: 250px;
+  width: 50px;
+  margin-left: -9px;
+  text-align: center;
+
+  border: 2px solid gray;
+  background-color: white;
+}
+.container{
+  width: 40%;
+  margin: 10% auto;
+}
+.black-keys kbd {
+  display: inline-block;
+  height: 150px;
+  width: 40px;
+  margin-left: -9px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  color: white;
+  bottom: 254px;
+}
+#W {
+  position: relative;
+  right: -30px;
+}
+#E {
+  position: relative;
+  right: -40px;
+}
+#T {
+  position: relative;
+  right: -100px;
+}
+#Y {
+  position: relative;
+  right: -110px;
+}
+#U {
+  position: relative;
+  right: -120px;
+}
